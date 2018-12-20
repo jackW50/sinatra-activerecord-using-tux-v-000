@@ -6,4 +6,5 @@ class User < ActiveRecord::Base
   
   def fav_ice_cream
     "my favorite ice cream is #{self.fav_icecream}. Yum Yum..."
+  end 
 end
